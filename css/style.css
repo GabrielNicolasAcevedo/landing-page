@@ -229,4 +229,7 @@ footer {
     display: flex; 
     gap: 1rem;
   }
+  .hero-img {
+    display: none;
+  }
 }
