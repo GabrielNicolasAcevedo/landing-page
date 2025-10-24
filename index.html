@@ -1,79 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>AceBebidas - Delivery de Bebidas en Rosario</title>
 </head>
-<body>
-    <header class="header">
-        <div class="left logo">LOGO</div>
 
-        <div class="right">
-            <ul class="links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+<body>
+    <!-- Header        -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/ab-logo.jpg" alt="logo" class="logo-img">
+                <span class="brand-name">AceBebidas</span>
+            </div>
+
+            <nav class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#productos">Productos</a>
+                    <a href="#contacto">Contacto</a>
+            </nav>
         </div>
     </header>
 
-    <main>
 
-        <div class="info-container">
-            <div class="info">
-                <h1>Delta Shark</h1>
-                <p>Delivery de Bebidas & Snacks en Rosario.
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+                <h1>Bebidas frías <span class="highlight">en 30min</span></h1>
+                <p>Delivery de Bebidas y Snacks en Rosario. Pedi desde de tu casa, nosotros llegamos. 
                 </p>
-                <button class="btn-info">Mandanos al whatsapp!</button>
+                <a href="https://wa.me/549341..." class="btn-whatsapp">
+                    Pedir por WhatsApp
+                </a>
             </div>
+
+            <div class="hero-img">
+                <img src="images/ab-logo-titulo.jpg" alt="AceBebidas">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Productos -->
+    <section class="productos-slider">
+        <div class="container">
+            <h2>Elegí tu combo preferido</h2>
             
-            <div class="img-logo">Insertar imagen<img src="" alt=""></div>
+            <div class="grid">
+                <div class="card">
+                    <img src="images/combo-fernet.png" alt="Combo Fernet">
+                    <h3>Combo 1</h3>
+                    <p>Fernet 750cc + 2 coca 1,5L + 2kg Hielo</p>
+                    <span class="price">25.000$</span>
+                </div>
+                <div class="card">
+                    <img src="images/combo-campari.png" alt="Combo Campari">
+                    <h3>Combo 2</h3>
+                    <p>Campari 750cc + 2 Citric 1L + 2kg Hielo</p>
+                    <span class="price">25.000$</span>
+                </div>
+                <div class="card">
+                    <img src="images/combo-smirnoff-speed.png" alt="Combo Smirnoff Original">
+                    <h3>Combo 3</h3>
+                    <p>1 Smirnoff + 6 speed + 2kg hielo</p>
+                    <span class="price">25.000$</span>
+                </div>
+                <div class="card">
+                    <img src="images/combo-quilmes.png" alt="Combo Quilmes">
+                    <h3>Combo 4</h3>
+                    <p>Pack Quilmes 473cc x6</p>
+                    <span class="price">25.000$</span>
+                </div>
+            </div>
         </div>
-    
-    
-    <div class="product-slider">
-        <h2>Elegí tu combo preferido</h2>
+    </section>
 
-        <div class="producto">
-            <img src="" alt="">
-            <p>Combo 1</p>
+    <!-- Cómo funciona -->
+    <section class="quote">
+        <div class="container">
+            <p>"El alcohol no solucionará tus problemas... pero bueno. <strong>¡El agua tampoco!</strong>"</p>
+            <p class="autor">-AceBebidas</p>
         </div>
+    </section>
 
-        <div class="producto">
-            <img src="" alt="">
-            <p>Combo 2</p>
-        </div>
-        
-        <div class="producto">
-            <img src="" alt="">
-            <p>Combo 3</p>
-        </div>
-        
-        <div class="producto">
-            <img src="" alt="">
-            <p>Combo 4</p>
-        </div>
-
-    </div>
-    
-    <div class="text">
-        <p>"El alcohol no solucionará tus problemas... pero bueno. ¡El agua tampoco!"</p>
-        <p>-Gabriel Acevedo</p>
-    </div>
-
-    <div class="container">
-
-        <div class="box">
+    <!-- CTA: Pedir ahora -->
+    <section class="cta">
+        <div class="container">
             <h3>No te quedes sin tu combo!</h3>
-            <p>Enterate de nuestras promociones comunicandote a nuestro WhatsApp </p>
-            <button class="btn-box">WhatsApp</button>
+            <p>Promociones exclusivas por WhatsApp</p>
+            <a href="https://wa.me/549341..." class="btn-whatsapp">
+                    Pedir Ahora
+            </a>
         </div>
-    </div>
-    </main>
-    
-    <footer>Copyright © AceDev 2025</footer>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Copyright © AceFlow 2025</p>
+        </div>
+    </footer>
 
 </body>
 </html>
