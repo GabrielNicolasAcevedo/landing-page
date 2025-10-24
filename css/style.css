@@ -160,6 +160,7 @@ img {
 .card img {
   border-radius: 8px;
   margin-bottom: 1rem;
+  max-height: 200px;
 }
 
 .price {
