@@ -121,6 +121,7 @@ img {
 
 .hero-img {
   max-width: 60%;
+  margin-left: auto;
 }
 
 /*---- Productos ----*/
